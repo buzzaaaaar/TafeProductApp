@@ -14,10 +14,12 @@
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
-        <TextBox x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="199,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Margin="30,210,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="totalWrapChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="199,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Margin="30,246,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="199,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Margin="30,196,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="totalWrapChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="199,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Margin="30,232,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="GSTTextBox" HorizontalAlignment="Left" Height="23" Margin="199,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Total Charge After GST @10%" HorizontalAlignment="Left" Margin="26,283,0,0" VerticalAlignment="Top"/>
 
 
     </Grid>
